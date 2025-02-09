@@ -155,15 +155,15 @@ v +-------------------+
   - Long-Term Scheduler should select a good process from the CPU / I/O bound process.
   - Medium-Term Scheduler removes process from memory and then reduces the degree of multiprogramming - Process are swapped out and swapped in by medium term scheduler.
 
-                       +--------------------------------+
-        Swap-in  --->  | Partially Executed             |
-          ∧            | Swapped-Out Processes          |
-          |            +--------------------------------+
-          |                  |   Swap-out
-          |                  v
-        +--------------+    +-----+     +----------------------+
-        | Ready Queue  | -->| CPU | --> |        End           |
-        +--------------+    +-----+     +----------------------+
+                       +------------------------------+
+        Swap-in  --->  | Partially Executed           |
+          ∧            | Swapped-Out Processes        |
+          |            +------------------------------+
+          |                   |   Swap-out
+          |                   v
+        +--------------+    +-----+    +--------------------+
+        | Ready Queue  | -->| CPU | -->|        End         |
+        +--------------+    +-----+    +--------------------+
                 |             |
                 |             v
         +------+-------------+------+
