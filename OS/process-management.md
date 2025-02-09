@@ -169,10 +169,9 @@ v +-------------------+
         +------+-------------+------+
         ∧                           |
         |                           v
-
-    +--------+ +-------------------+
-    | I/O | <------------- | I/O Waiting Queue |
-    +--------+ +-------------------+
+        +--------+             +-------------------+
+        | I/O |  | <---------- | I/O Waiting Queue |
+        +--------+             +-------------------+
 
 - Context Switching:
   - Switching CPU from one process to another requires saving and restoring the state of the older processes, it includes value in cpu register, this process is called Context switching
