@@ -12,7 +12,7 @@
 
 - Preemptive scheduling
 
-  - CPU scheduling takes place in 4 phases
+  - CPU scheduling takes place in 4 phases  
     **1.** When a process switches from waiting to ready, it is added to the ready queue.  
     **2.** When a process switches fro ready to waiting, it is removed from the ready queue.  
     **3.** When a process switches from running to waiting  
