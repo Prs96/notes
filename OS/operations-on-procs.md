@@ -45,4 +45,4 @@ The system provides mechanism for:
 - A parent may terminate a child for:
   - Child has exceeded resource limits.
   - No longer needed.
-  - Parent is exiting (no child without parent "cascading termination").
+  - Parent is exiting (no child without parent this term is "cascading termination").

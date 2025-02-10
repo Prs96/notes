@@ -53,7 +53,7 @@
 | P1  | P2  | P3  | P4  |
 | --- | --- | --- | --- |
 
-0     5     8     16    22
+`0     5     8     16    22`
 
 [!Note]
 TAT = CT - AT
@@ -74,26 +74,26 @@ WT = TAT - BT
 - Gantt chart
   | P1 | P4 | P3 | P2 |
   |-----|-----|-----|-----|
- 
-  0     5     6     16    22
+
+` 0     5     6     16    22`
 
 **3.** Shortest Job First (SJF) - Preemptive
 
 -Here CPU is given to the process with the shortest burst time
 | Process | Arrival Time | Burst Time |
 | ------- | ------------ | ---------- |
-| P1      | 0            | 8          |
-| P2      | 1            | 1          |
-| P3      | 2            | 3          |
-| P4      | 3            | 2          |
-| P5      | 4            | 6          |
+| P1 | 0 | 8 |
+| P2 | 1 | 1 |
+| P3 | 2 | 3 |
+| P4 | 3 | 2 |
+| P5 | 4 | 6 |
 
 - Gantt chart
 
-| P1 | P2 | P3 | P4 | P5 | P1 |
-|-----|-----|-----|-----|-----|-----|
+| P1  | P2  | P3  | P4  | P5  | P1  |
+| --- | --- | --- | --- | --- | --- |
 
-0     1     2     5     7     13    20
+`0     1     2     5     7     13    20`
 
 **4.** Priority Scheduling
 

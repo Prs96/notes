@@ -23,7 +23,7 @@ Os services are provided by the operating system and are used to run programs an
 - Communication can occur in 2 ways
   - In the same computer b/w processes
   - Over the network
-- Communication is implemented by shared memory or message passing in pckets of information moved through processes by the os
+- Communication is implemented by shared memory or message passing in packets of information moved through processes by the os
 
 # Error detection and resource allocation
 

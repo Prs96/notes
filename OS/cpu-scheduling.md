@@ -8,7 +8,7 @@
 
   - Whenever the CPU becomes idle, the OS must select one of the processes in the queue and give it the CPU.
   - Selection is carried out by short term scheduler and long term scheduler.
-  - A ready queue may be implemented as FIFO quue, priority queue, a tree, etc.
+  - A ready queue may be implemented as FIFO queue, priority queue, a tree, etc.
 
 - Preemptive scheduling
 
