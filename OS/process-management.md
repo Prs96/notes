@@ -51,7 +51,7 @@
 
 - Only one process can be assigned to a CPU at a time eventhough there are multiple processes running.
 
-## Process Control Block
+# Process Control Block
 
 - Process Control Block (PCB) is a data structure that contains information about a process.
 - PCB is also called task control block (TCB).
@@ -67,7 +67,7 @@
   - CPU scheduling information
   - Accounting Information
 
-  ### Process Control Block Visualisation (PCB)
+## Process Control Block Visualisation (PCB)
 
 | Attribute              | Description                                              |
 | ---------------------- | -------------------------------------------------------- |
@@ -82,13 +82,13 @@
 | **Accounting Info**    | CPU usage, execution time, etc.                          |
 | **I/O Status**         | Information about I/O requests and devices               |
 
-#### Threads
+# Threads
 
 - Process is a program that performs single thread of execution.
 - Single thread allows only one task to execute at a time.
 - Modern OS have multi-threading support.
 
-##### Process Scheduling
+# Process Scheduling
 
 - Process scheduling is the process of deciding which process should run on which CPU.
 

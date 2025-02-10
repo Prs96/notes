@@ -6,7 +6,7 @@
 
 - Os is a system software that provides a platform for running other programs.
 
-## Functions of an Operating System
+# Functions of an Operating System
 
 - Memory Management
 
@@ -54,7 +54,7 @@
   - Handling errors and exceptions
   - Reporting errors to the system administrator
 
-### Types of Operating Systems
+# Types of Operating Systems
 
 **1.** Batch Operating System
 
@@ -131,7 +131,7 @@
 
 **5.** Real time Operating System
 
-- A real time system is a system taht uses rigid time requirements.
+- A real time system is a system that uses rigid time requirements.
 - It is a system that must meet the deadlines or it will fail
 - It comes in 2 flavours :
   - Hard real time
