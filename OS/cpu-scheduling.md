@@ -10,24 +10,23 @@
   - Selection is carried out by short term scheduler and long term scheduler.
   - A ready queue may be implemented as FIFO queue, priority queue, a tree, etc.
 
-- Preemptive scheduling
+- CPU scheduling
 
   - CPU scheduling takes place in 4 phases  
     **1.** When a process switches from waiting to ready, it is added to the ready queue.  
     **2.** When a process switches fro ready to waiting, it is removed from the ready queue.  
     **3.** When a process switches from running to waiting  
     **4.** When a process is terminated
-  - In 1 & 4 there are no choice in terms of scheduling.
-  - In 2 & 3 there are choices :
 
-    - When schedulingh takes place under circumstance 1 and 2, the process is non-preemptive, otherwise preemptive.
+- Preemptive scheduling
 
-  - Non preemptive scheduling
+  - Preemptive Scheduling is a CPU scheduling technique where the operating system can interrupt and suspend a currently running process to allocate CPU time to another process. This is done based on predefined criteria like priority, time slices, or arrival time.
 
-    - The process keeps running until it is terminated.
-    - Preemptive scheduling may cause issues as other process may intervine and cause the process to be terminated.
+- Non-preemptive scheduling
 
-  - Dispatcher
-    - Dispatcher gives the control of CPU to the process selected by the scheduler.
-    - Invoked during every switch from ready to running state.
-    - Time taken by dispatcher to stop a process and start another process is called dispatch latency.
+  - Non-preemptive scheduling is a CPU scheduling method where once a process starts execution, it runs until completion or voluntarily yields the CPU (e.g., waiting for I/O). The operating system does not interrupt or forcefully stop a running process.
+
+- Dispatcher
+  - Dispatcher gives the control of CPU to the process selected by the scheduler.
+  - Invoked during every switch from ready to running state.
+  - Time taken by dispatcher to stop a process and start another process is called dispatch latency.
